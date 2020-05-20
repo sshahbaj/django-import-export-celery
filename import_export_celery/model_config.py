@@ -1,7 +1,7 @@
 from django.apps import apps
 from import_export.resources import modelresource_factory
 from celery.utils.log import get_task_logger
-from leads.resource import get_lead_resource
+from leads.resources import get_lead_resource
 
 log = get_task_logger(__name__)
 
